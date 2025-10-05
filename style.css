@@ -75,9 +75,18 @@ body{
     line-height: 1em;
     color: #0f0e0e;
     position: relative;
-    background-color:transparent;
+    background-color: transparent;
+    transition: color 10s ease-in-out
     
 }
+    .outer .content h1:hover{
+    background: linear-gradient(to right,#9BC995,#98B9AB,#5171A5,#3F3047,#EEF36A);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: linear-gradient(to right,#9BC995,#98B9AB,#5171A5,#3F3047,#EEF36A);
+    color: transparent;
+
+    }
 .outer .content h1::after{
     position: absolute;
     inset: 0 0 0 0;
@@ -140,5 +149,6 @@ h2{
     text-decoration: underline;
     scale: 1.2;
 }
+
 
 
