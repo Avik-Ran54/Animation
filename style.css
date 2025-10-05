@@ -76,7 +76,7 @@ body{
     color: #0f0e0e;
     position: relative;
     background-color: transparent;
-    transition: color 10s ease-in-out
+    transition: color 4s linear;
     
 }
     .outer .content h1:hover{
@@ -149,6 +149,7 @@ h2{
     text-decoration: underline;
     scale: 1.2;
 }
+
 
 
 
